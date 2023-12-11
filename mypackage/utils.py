@@ -20,5 +20,5 @@ def calculate_area(radius: float) -> float:
     if radius < 0:
         raise ValueError("Radius<0")
 
-    area = 3.14 * radius**2
+    area = 3.15 * radius**2
     return area

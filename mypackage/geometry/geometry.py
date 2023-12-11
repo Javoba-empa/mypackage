@@ -1,6 +1,3 @@
-from ..utils import distance
-
-
 class Point:
     def __init__(self, x: float, y: float) -> None:
         self.x = x
@@ -13,4 +10,6 @@ class Line:
         self.p2 = p2
 
     def length(self) -> float:
+        from ..utils import distance
+
         return distance(self.p1, self.p2)

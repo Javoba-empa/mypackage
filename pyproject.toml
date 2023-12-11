@@ -13,4 +13,6 @@ dependencies = [
     "scipy",
     "matplotlib",
     "paramiko",
+    "pytest",
+    "pytest-cov",
 ]

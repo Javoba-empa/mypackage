@@ -1,6 +1,6 @@
 import pytest
 
-from mypackage.utils import calculate_area
+from mypackage_empatutorial_javoba.utils import calculate_area
 
 
 def test_area():

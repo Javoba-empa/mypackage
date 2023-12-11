@@ -1,5 +1,5 @@
-from mypackage.geometry.geometry import Point
-from mypackage.utils import distance
+from mypackage_empatutorial_javoba.geometry.geometry import Point
+from mypackage_empatutorial_javoba.utils import distance
 
 
 def test_distance():

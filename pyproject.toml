@@ -5,4 +5,11 @@ build-backend = "flit_core.buildapi"
 [project]
 name = "mypackage"
 version = "0.1.0"
+license = {file = "LICENSE"}
 description = "My first package"
+dependencies = [
+    "numpy",
+    "pandas",
+    "scipy",
+    "matplotlib",
+]
